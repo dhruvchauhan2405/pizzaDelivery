@@ -1,12 +1,12 @@
 @import "./variables";
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: $dark;
-  // font-weight: 600;
-  // box-sizing: border-box;
-  // height: 4000px;
+  // scroll-behavior: auto;
 }
 
 ul li:last-child a {
@@ -40,4 +40,26 @@ nav li a {
 
 .btn-primary {
   background: $primary;
+  transition: $smooth;
+  &:hover {
+    background: $primary-hover;
+  }
+}
+
+section.cart {
+  background-color: $secondary;
+  .amount {
+    color: $primary;
+  }
+}
+
+.submit-btn {
+  background-color: $primary;
+  &:hover {
+    background: $primary-hover;
+  }
+}
+
+.forgot-pswd {
+  color: $primary;
 }

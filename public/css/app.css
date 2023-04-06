@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -38,5 +42,30 @@ nav li a:hover {
 
 .btn-primary {
   background: #fe5f1e;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: #b23301;
+}
+
+section.cart {
+  background-color: #f8f8f8;
+}
+
+section.cart .amount {
+  color: #fe5f1e;
+}
+
+.submit-btn {
+  background-color: #fe5f1e;
+}
+
+.submit-btn:hover {
+  background: #b23301;
+}
+
+.forgot-pswd {
+  color: #fe5f1e;
 }
 
