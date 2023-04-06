@@ -36,3 +36,7 @@ nav li a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+.btn-primary {
+  background: #fe5f1e;
+}
+
